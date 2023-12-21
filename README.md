@@ -19,3 +19,5 @@ Struktura projektu:
 
 Použité zdroje při vytváření: ChatGPT, Wikipedia, ČSFD, obecně google a youtube
 Spolupracovník: Matyas Erber (T3B)
+Stránka je zatím rozdělaná proto design v css je takový jaký je vše musím doladit. Ale html je v polovičním stavu.
+Rád bych udělal alespoň přes 50 sitcomů.
