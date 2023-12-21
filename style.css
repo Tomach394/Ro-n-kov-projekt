@@ -1,0 +1,111 @@
+/* Základní stylizace pro celou stránku */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Stylizace hlavičky stránky */
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #2980b9; /* Spodní čára pro zdůraznění */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/* Navigační panel */
+
+nav {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+    transition: color 0.3s ease; /* Plynulá změna barvy při najetí myší */
+}
+
+nav a:hover {
+    color: #e74c3c; /* Změna barvy při najetí myší */
+}
+
+/* Sekce a články */
+
+section, article {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* Formulář */
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label, input, button {
+    margin: 5px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Plynulá změna barvy při najetí myší */
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Recenze uživatelů */
+
+article {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+ 
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+}
